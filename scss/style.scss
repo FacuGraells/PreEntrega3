@@ -1,0 +1,14 @@
+//base
+@import "./base/variables" ;
+@import "./base/listas";
+@import "./base/colores";
+@import "./base/maps";
+//componentes
+@import "./componentes/hero";
+
+
+//hero image
+
+.hero{
+    background-image: url(../imagenes/aserradero-madera-pallets-2.jpg);
+}

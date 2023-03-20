@@ -1,3 +1,37 @@
+.hero {
+  align-items: center;
+  text-align: center;
+  color: white;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.hero h1 {
+  font-size: 3.2em;
+  font-weight: bold;
+  margin: 0;
+  padding: 170px 100px;
+}
+.hero h1 p {
+  font-size: 1.5em;
+}
+.hero h1 p .botoninicio {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 2px 2px 10px rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  background-color: rgb(43, 42, 42);
+}
+.hero h1 p .botoninicio:hover {
+  background-color: rgb(0, 0, 0);
+}
 
+.hero {
+  background-image: url(../imagenes/aserradero-madera-pallets-2.jpg);
+}
 
 /*# sourceMappingURL=style.css.map */

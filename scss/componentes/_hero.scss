@@ -1,0 +1,31 @@
+.hero{
+    align-items: center;
+    text-align: center;
+    color: white;
+    height: nth($espacio , 5 );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    h1{
+        font-size: $size1;
+        font-weight: bold;
+        margin: nth($espacio, 1 );
+        padding: 170px 100px;
+        p{
+            font-size: $sizeP;
+            .botoninicio{
+                font-size: $sizeP;
+                font-weight: bold;
+                padding: 10px 25px;
+                border-radius: nth($espacio, 2 );
+                border: map-get($boton , bordecito );
+                box-shadow: map-get($boton, sombra );
+                color: map-get($boton, colorcito );
+                background-color: map-get($boton, bg-color );
+                &:hover{
+                    background-color: rgb(0, 0, 0)
+                }
+            }
+        }
+    }
+}
