@@ -1,12 +1,12 @@
 //base
 @import "./base/variables" ;
 @import "./base/listas";
-@import "./base/colores";
 @import "./base/maps";
+@import "./base/extend";
 //componentes
+@import "./componentes/generales";
+@import "./componentes/header";
 @import "./componentes/hero";
-
-
 //hero image
 
 .hero{

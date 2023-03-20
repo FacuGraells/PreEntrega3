@@ -1,0 +1,33 @@
+header{
+    background-color:rgb(179, 135, 61);
+    .logo{
+        margin: nth($espacio, 1 );
+        padding: nth($espacio, 4 ) 30px;
+        font-size: 1.9em;
+        color:  nth($coloresheader, 2 ) ;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+        div{
+            ul{
+                list-style: none;
+                margin-top: nth($espacio, 3 );
+                @extend %dflexr;
+                li{
+                    text-align: center;
+                    padding-bottom: nth($espacio, 3 ) ;
+                    font-weight: bold;
+                    font-size: 1.2em;
+                    a{
+                        padding: 2px 15px;
+                        text-decoration: none;
+                        color: nth($coloresheader, 2 );
+                        
+                        &:hover{
+                            color: nth($coloresheader, 3);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

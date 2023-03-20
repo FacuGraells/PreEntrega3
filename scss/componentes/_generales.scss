@@ -1,0 +1,14 @@
+body{
+    margin: nth($espacio, 1 );
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{ font-size: $size1;
+    font-weight: bold;}
+h2{font-size: $size2;}
+h3{font-size: $size3;}
+p{font-size: $sizeP;}
+
+.container{
+    margin: nth($espacio, 1 );
+}

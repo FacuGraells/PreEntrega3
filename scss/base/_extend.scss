@@ -1,0 +1,12 @@
+%dflexr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+%dflexc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
