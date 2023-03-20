@@ -1,0 +1,16 @@
+@mixin historia (){
+    text-align: center;
+    margin: 30px;
+    background-color:rgb(240, 229, 210);
+    padding: 100px;
+
+}
+
+@mixin historia1($bgc-hist, $ta-hist, $pad-hist, $marg-hist){
+    background-color: $bgc-hist;
+    text-align: $ta-hist;
+    padding: $pad-hist;
+    margin-top: $marg-hist;
+}
+
+

@@ -3,12 +3,13 @@
 @import "./base/listas";
 @import "./base/maps";
 @import "./base/extend";
+@import "./base/mixin";
+
 //componentes
 @import "./componentes/generales";
 @import "./componentes/header";
 @import "./componentes/hero";
-//hero image
+@import "./componentes/somosms";
 
-.hero{
-    background-image: url(../imagenes/aserradero-madera-pallets-2.jpg);
-}
+
+

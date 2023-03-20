@@ -1,0 +1,24 @@
+.somosmsboot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.calesita{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.historia{
+    @extend %dflexc;
+    @include historia1 (rgb(235, 231, 224), center, 100px, 30px)
+    
+    
+    
+}
+
+.ventas{
+    @extend %dflexc;
+    @include historia1 (rgb(235, 231, 224), center, 100px, 0)
+}
