@@ -29,3 +29,19 @@
         background-color: rgb(0, 0, 0)
     }
 }
+
+
+.reseña1{
+    @extend %dflexc;
+    padding: 150px;
+    background-color: nth($coloresheader, 2 );
+    color: #afafaf;
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: nth($espacio, 2);
+    h2{
+        margin-top:nth($espacio, 4 );
+    }
+
+    
+
+}
