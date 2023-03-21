@@ -1,0 +1,37 @@
+
+.contactos{
+    iframe{
+        padding-bottom: 50px;
+        width: 1910px; 
+        height: 320px;
+    }
+
+} 
+
+.parrafo{
+    display: flex;
+    flex-direction: column;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    padding: 2px 15px;   
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(56, 52, 52);
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 2px 15px ;
+    margin: 10px;
+    a:hover{
+        color: rgb(172, 99, 16);
+    }
+}
+
+.encuesta{
+    margin-bottom: 25px;
+}
