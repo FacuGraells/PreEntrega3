@@ -21,9 +21,11 @@ header{
                         padding: 2px 15px;
                         text-decoration: none;
                         color: nth($coloresheader, 2 );
-                        
+                        font-weight: bold;
+                        font-size: $size3;
                         &:hover{
                             color: nth($coloresheader, 3);
+                            
                         }
                     }
                 }
@@ -31,3 +33,5 @@ header{
         }
     }
 }
+
+

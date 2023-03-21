@@ -13,13 +13,22 @@
 
 .historia{
     @extend %dflexc;
-    @include historia1 (rgb(235, 231, 224), center, 100px, 30px)
+    @include historia1 (rgb(235, 231, 224), center, 100px, 30px);
     
-    
+    background: hsla(42, 17%, 85%, 1);
+    background: linear-gradient(360deg, hsla(42, 17%, 85%, 1) 36%, hsla(38, 22%, 90%, 1) 46%);
+    background: -moz-linear-gradient(360deg, hsla(42, 17%, 85%, 1) 36%, hsla(38, 22%, 90%, 1) 46%);
+    background: -webkit-linear-gradient(360deg, hsla(42, 17%, 85%, 1) 36%, hsla(38, 22%, 90%, 1) 46%);
+
     
 }
 
 .ventas{
     @extend %dflexc;
-    @include historia1 (rgb(235, 231, 224), center, 100px, 0)
+    @include historia1 (rgb(235, 231, 224), center, 100px, 0);
+
+    background: hsla(42, 17%, 85%, 1);
+    background: linear-gradient(180deg, hsla(42, 17%, 85%, 1) 36%, hsla(38, 22%, 90%, 1) 46%);
+    background: -moz-linear-gradient(180deg, hsla(42, 17%, 85%, 1) 36%, hsla(38, 22%, 90%, 1) 46%);
+    background: -webkit-linear-gradient(180deg, hsla(42, 17%, 85%, 1) 36%, hsla(38, 22%, 90%, 1) 46%);
 }
