@@ -5,7 +5,7 @@ header .logo div ul {
   justify-content: space-evenly;
 }
 
-.ventas, .historia, .reseña1 {
+.medio-ambiente .medbarra, .ventas, .historia, .reseña1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -140,6 +140,41 @@ header .logo div ul li a:hover {
   text-align: center;
   padding: 100px;
   margin-top: 0;
+}
+
+.catalogo h2 {
+  text-align: center;
+  margin: 15px;
+}
+
+.cartita {
+  margin-bottom: 15px;
+  background-color: rgb(224, 220, 211);
+}
+.cartita img {
+  height: 500px;
+}
+
+.medio-ambiente .medbarra {
+  margin: 20px;
+}
+.medio-ambiente .medbarra h2 {
+  text-align: center;
+}
+.medio-ambiente .medbarra h2 ul {
+  font-size: 1.5em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  list-style: circle;
+}
+
+.medio-ambiente img {
+  margin-top: 20px;
+  width: 2000px;
+  height: 550px;
+}
+
+button {
+  margin: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

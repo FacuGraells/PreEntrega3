@@ -1,0 +1,23 @@
+
+.medio-ambiente .medbarra{
+    @extend %dflexc;
+    margin: 20px;
+    h2{
+        text-align: center;
+        ul{
+            font-size: 1.5em;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            list-style: circle;
+            
+        }
+    }
+}   
+.medio-ambiente img{
+    margin-top: 20px;
+    width: 2000px;
+    height: 550px;}
+
+    button{
+        margin: 20px;
+        
+    }
