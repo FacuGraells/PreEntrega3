@@ -39,10 +39,6 @@ p {
   margin: 0;
 }
 
-.hero {
-  background-image: url(../imagenes/aserradero-madera-pallets-2.jpg);
-}
-
 header {
   background-color: rgb(204, 199, 186);
 }
@@ -76,6 +72,7 @@ header .logo div ul li a:hover {
 }
 
 .hero {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/aserradero-madera-pallets-2.jpg);
   align-items: center;
   text-align: center;
   color: white;
@@ -177,14 +174,50 @@ header .logo div ul li a:hover {
   list-style: circle;
 }
 
-.medio-ambiente img {
-  margin-top: 20px;
-  width: 2000px;
-  height: 550px;
-}
-
 button {
   margin: 20px;
+}
+
+.ambiente1 {
+  background-image: url(../imagenes/medioamb1.jpg);
+  width: 2000px;
+  height: 500px;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+
+.ambiente2 {
+  background-image: url(../imagenes/medioamb2.jpg);
+  width: 2000px;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+
+.ambiente3 {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/medioamb3.jpg);
+  width: 2000px;
+  height: 500px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+
+.calesitaMA {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #f0e8e8;
+  font-family: "Comfortaa", cursive;
+  font-size: small;
+}
+.calesitaMA h2 {
+  margin: 150px 50px 50px 50px;
 }
 
 .contactos iframe {
