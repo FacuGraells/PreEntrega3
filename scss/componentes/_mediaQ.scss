@@ -1,0 +1,72 @@
+//generales
+@media screen and (max-width: 576px) {
+h1{
+    font-size:2.3em;
+} 
+h2{
+    font-size: 1.8em;
+}
+h3{
+    font-size: 1.3em;
+    
+}
+p{
+    font-size:1em;
+}
+
+//Media query index
+
+.hero{
+    height: 70vh;
+    h1{
+        padding: 150px 50px;
+            
+    }
+}
+    
+.hero p{
+    display: none;
+}
+    
+//media query catalogo
+.catalogo{
+    p{
+        display: none;
+    }
+        
+}
+
+//media query medio ambiente
+
+.ambiente1{
+    height: 50vh;
+    
+    
+}
+.ambiente2{
+    height: 50vh;
+}
+.ambiente3{
+    height: 50vh;
+}
+.col-lg-7{
+    display: none;    
+}
+
+//media query footer
+
+footer p{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+}   
+

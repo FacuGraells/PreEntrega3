@@ -1,7 +1,7 @@
 
 .medio-ambiente .medbarra{
     @extend %dflexc;
-    margin: 0px;
+    margin: auto;
     h2{
         text-align: center;
         margin: 25px;
@@ -26,8 +26,7 @@ button{
         rgba(0,0,0,0.5)
     )
     ,url(../imagenes/medioamb1.jpg);
-    width: 2000px;
-    height: 500px;
+   
     background-position: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,8 +41,7 @@ button{
         rgba(0,0,0,0.5)
     )
     ,url(../imagenes/medioamb2.jpg);
-    width: 1950px;
-    height: 500px;
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -57,8 +55,7 @@ button{
         rgba(0,0,0,0.5)
     )
     ,url(../imagenes/medioamb3.jpg) ;
-    width: 1950px;
-    height: 500px;
+    
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;

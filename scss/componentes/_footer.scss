@@ -17,7 +17,8 @@ footer {
     
 }
 
-.futer span{
+.futer 
+    span{
     font-family: 'Comfortaa', cursive;
     color: #afafaf;
     width: 200px;
@@ -31,12 +32,14 @@ footer {
     pointer-events: none;
 }
 
-.futer nav{
+.futer 
+    nav{
     font-size: 0;
     margin-bottom: 25px;
 }
 
-.futer a{
+.futer 
+    a{
     line-height: 80px;
     width: 80px;
     text-align: center;
@@ -50,32 +53,38 @@ footer {
 
 }
 
-.futer a:nth-child(1){
+.futer 
+    a:nth-child(1){
     border-top-left-radius:40px;
     border-bottom-left-radius: 40px;
     margin-left: 0;
 }
 
-.futer a:nth-child(4){
+.futer 
+    a:nth-child(4){
     border-top-right-radius:40px;
     border-bottom-right-radius: 40px;
     margin-left: 0;
 }
 
-.futer a:nth-child(1):hover{
+.futer 
+    a:nth-child(1):hover{
     background-color: rgb(152, 54, 243);
 }
 
-.futer a:nth-child(2):hover{
+.futer 
+    a:nth-child(2):hover{
     background-color: rgb(14, 168, 14);
     
 }
 
-.futer a:nth-child(3):hover{
+.futer 
+    a:nth-child(3):hover{
    background-color: rgb(152, 152, 245); 
 }
 
-.futer a:nth-child(4):hover{
+.futer 
+    a:nth-child(4):hover{
     background-color: rgb(126, 120, 120);
 }
 

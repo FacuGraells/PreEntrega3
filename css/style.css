@@ -25,10 +25,12 @@ h1 {
 
 h2 {
   font-size: 2.7em;
+  font-weight: bold;
 }
 
 h3 {
   font-size: 2em;
+  font-weight: bold;
 }
 
 p {
@@ -164,7 +166,7 @@ a:hover {
 }
 
 .medio-ambiente .medbarra {
-  margin: 0px;
+  margin: auto;
 }
 .medio-ambiente .medbarra h2 {
   text-align: center;
@@ -182,8 +184,6 @@ button {
 
 .ambiente1 {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/medioamb1.jpg);
-  width: 2000px;
-  height: 500px;
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -192,8 +192,6 @@ button {
 
 .ambiente2 {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/medioamb2.jpg);
-  width: 1950px;
-  height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -202,8 +200,6 @@ button {
 
 .ambiente3 {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/medioamb3.jpg);
-  width: 1950px;
-  height: 500px;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -224,8 +220,7 @@ button {
 
 .contactos iframe {
   padding-bottom: 50px;
-  width: 1910px;
-  height: 320px;
+  height: 350px;
 }
 
 .parrafo {
@@ -352,6 +347,48 @@ footer p {
 
 .futer:hover a:hover, .share.hover a:hover {
   color: #fff;
+}
+
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: 2.3em;
+  }
+  h2 {
+    font-size: 1.8em;
+  }
+  h3 {
+    font-size: 1.3em;
+  }
+  p {
+    font-size: 1em;
+  }
+  .hero {
+    height: 70vh;
+  }
+  .hero h1 {
+    padding: 150px 50px;
+  }
+  .hero p {
+    display: none;
+  }
+  .catalogo p {
+    display: none;
+  }
+  .ambiente1 {
+    height: 50vh;
+  }
+  .ambiente2 {
+    height: 50vh;
+  }
+  .ambiente3 {
+    height: 50vh;
+  }
+  .col-lg-7 {
+    display: none;
+  }
+  footer p {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -6,8 +6,10 @@ body{
 
 h1{ font-size: $size1;
     font-weight: bold;}
-h2{font-size: $size2;}
-h3{font-size: $size3;}
+h2{font-size: $size2;
+    font-weight: bold;}
+h3{font-size: $size3;
+    font-weight: bold;}
 p{font-size: $sizeP;}
 
 .container{
