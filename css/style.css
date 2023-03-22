@@ -366,12 +366,12 @@ footer p {
     height: 70vh;
   }
   .hero h1 {
-    padding: 150px 50px;
+    padding: 100px 50px;
   }
   .hero p {
     display: none;
   }
-  .reseña1 {
+  .carrusel {
     display: none;
   }
   .catalogo p {
