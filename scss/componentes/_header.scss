@@ -17,17 +17,7 @@ header{
                     padding-bottom: nth($espacio, 3 ) ;
                     font-weight: bold;
                     font-size: 1.2em;
-                    a{
-                        padding: 2px 15px;
-                        text-decoration: none;
-                        color: nth($coloresheader, 2 );
-                        font-weight: bold;
-                        font-size: $size3;
-                        &:hover{
-                            color: nth($coloresheader, 3);
-                            
-                        }
-                    }
+                   
                 }
             }
         }
@@ -35,3 +25,14 @@ header{
 }
 
 
+a{
+    padding: 2px 15px;
+    text-decoration: none;
+    color: nth($coloresheader, 2 );
+    font-weight: bold;
+    font-size: $sizeP;
+    &:hover{
+        color: #b1a389;
+        
+    }
+}
