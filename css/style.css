@@ -165,6 +165,10 @@ a:hover {
   height: 500px;
 }
 
+.card-title {
+  margin-top: 10px;
+}
+
 .medio-ambiente .medbarra {
   margin: auto;
 }
